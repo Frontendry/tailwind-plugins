@@ -1,10 +1,13 @@
 ## Custom Tailwind Plugins
 
-### Installation
-Installing text-stroke Tailwind Plugin for instance...
+### Adding Plugin
+After Git Cloning this repository, add the text-stroke Tailwind plugin like so:
 
 ```js
+// tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {

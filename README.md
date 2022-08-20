@@ -1,7 +1,7 @@
 ## Custom Tailwind Plugins
 
 ### Adding Plugin
-After Git Cloning this repository, add the text-stroke Tailwind plugin like so:
+After Git Cloning this repository, instantiate the text-stroke Tailwind plugin on your `tailwind.config.js` like so:
 
 ```js
 // tailwind.config.js
@@ -13,13 +13,14 @@ module.exports = {
   theme: {
     extend: {},
   },
+  // Tailwind Plugins Added Here...
   plugins: [ require("./path/to/text-stroke")],
 }
 
 ```
 
 ### Usage
-For text-stroke plugin add to your HTML with `.text-stroke` `.text-stroke-{color}` classes as shown below:
+To use the text-stroke plugin on your Tailwind project, add `.text-stroke` `.text-stroke-{color}` classes as shown below:
 ```html
 <p class="text-stroke text-stroke-blue-700">Hello</p>
 ```
